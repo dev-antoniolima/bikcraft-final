@@ -7,6 +7,9 @@ body {
   }
   
   h1,
+  h2,
+  h3,
+  h4,
   ul,
   p {
     margin: 0px;
@@ -23,7 +26,11 @@ body {
     color: inherit;
   }
   
-  img {
+  img{
     display: block;
+  }
+
+  img[src$=".jpg"] {
     max-width: 100%;
+    border-radius: 4px;
   }
